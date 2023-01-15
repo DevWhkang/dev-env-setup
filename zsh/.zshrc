@@ -5,15 +5,14 @@ export NVM_DIR="$HOME/.nvm"
 
 # change lazygit config path
 export XDG_CONFIG_HOME="$HOME/.config"
-# lazygit command alias
-echo "alias lg='lazygit'" >> ~/.zshrc
 
 # project direct path alias
 alias therich="cd ~/TheRich/"
 alias therich-app="cd ~/TheRich/the-rich-react-native"
 alias therich-web="cd ~/TheRich/the-rich-nextjs" 
 alias side="cd ~/Side/app-client"
-alias nvim-config="cd ~/.config/nvim"
+alias des="cd ~/.config/dev-env-setup"
+alias lg="lazygit"
  
 # homebrew intel alias
 alias ibrew="arch -x86_64 /usr/local/bin/brew"
