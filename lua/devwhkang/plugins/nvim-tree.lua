@@ -32,6 +32,9 @@ nvimtree.setup({
 					arrow_closed = "",
 					arrow_open = "",
 				},
+				git = {
+					untracked = "-",
+				},
 			},
 		},
 	},
